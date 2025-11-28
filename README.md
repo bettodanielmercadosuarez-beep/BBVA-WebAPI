@@ -14,11 +14,11 @@ Este proyecto fue construido utilizando un *stack* de tecnologías moderno y de 
 
 | Categoría | Tecnología | Versión | Propósito / Habilidad Demostrada |
 | :--- | :--- | :--- | :--- |
-| **Framework** | **.NET** | 8.0 | [cite_start]Core del desarrollo *backend*[cite: 1]. |
+| **Framework** | **.NET** | 8.0 | Core del desarrollo *backend*. |
 | **Lenguaje** | **C#** | - | Lenguaje principal de programación orientada a objetos (POO). |
-| **Base de Datos** | **SQL Server** | - | [cite_start]Motor de base de datos relacional para persistencia de datos[cite: 1]. |
-| **ORM** | **Entity Framework Core (EF Core)** | 9.0.6 | [cite_start]Mapeo Objeto-Relacional para la interacción con la base de datos[cite: 1]. |
-| **Documentación** | **Swashbuckle / Swagger** | 6.6.2 | [cite_start]Generación automática de documentación de la API para facilitar pruebas e integración[cite: 1]. |
+| **Base de Datos** | **SQL Server** | - | Motor de base de datos relacional para persistencia de datos. |
+| **ORM** | **Entity Framework Core (EF Core)** | 9.0.6 | Mapeo Objeto-Relacional para la interacción con la base de datos. |
+| **Documentación** | **Swashbuckle / Swagger** | 6.6.2 | Generación automática de documentación de la API para facilitar pruebas e integración. |
 
 ---
 
@@ -37,10 +37,10 @@ Las principales funcionalidades desarrolladas en esta API incluyen:
 
 Para asegurar la calidad, la seguridad y la modernidad del código, se implementaron las siguientes prácticas:
 
-1.  [cite_start]**Seguridad en Desarrollo:** Configuración de **HTTPS** como protocolo de *debugging* activo[cite: 3].
-2.  [cite_start]**Manejo de Secretos:** Uso de **User Secrets** para almacenar información sensible (como cadenas de conexión) fuera del repositorio de código público[cite: 1].
-3.  [cite_start]**Código Limpio:** Configuración del proyecto con `<Nullable>enable</Nullable>` para evitar referencias nulas inesperadas y fomentar un código más seguro en C#[cite: 1].
-4.  [cite_start]**API Documentada:** Uso de Swagger para proveer una interfaz gráfica que permite a cualquier usuario probar los *endpoints* de la API sin necesidad de herramientas externas[cite: 1].
+1.   **Seguridad en Desarrollo:** Configuración de **HTTPS** como protocolo de *debugging* activo.
+2.  **Manejo de Secretos:** Uso de **User Secrets** para almacenar información sensible (como cadenas de conexión) fuera del repositorio de código público.
+3.  **Código Limpio:** Configuración del proyecto con `<Nullable>enable</Nullable>` para evitar referencias nulas inesperadas y fomentar un código más seguro en C#.
+4.  **API Documentada:** Uso de Swagger para proveer una interfaz gráfica que permite a cualquier usuario probar los *endpoints* de la API sin necesidad de herramientas externas.
 
 ---
 
