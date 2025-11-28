@@ -1,2 +1,71 @@
-# BBVA-WebAPI
-API REST para gestión de cuentas bancarias desarrollada con .NET 8 y EF Core
+# 🏦 BBVA-WebAPI: API REST para Gestión Bancaria
+
+## 🚀 Descripción del Proyecto
+
+Este proyecto es una **API REST moderna y escalable** diseñada para simular las operaciones básicas de un sistema bancario. Permite la gestión de cuentas, transacciones y autenticación de usuarios.
+
+Desarrollada bajo la arquitectura de servicios web, esta API demuestra mi capacidad para construir soluciones robustas utilizando tecnologías de Microsoft en un entorno profesional.
+
+---
+
+## 🛠️ Tecnologías Utilizadas (Hard Skills)
+
+Este proyecto fue construido utilizando un *stack* de tecnologías moderno y de alto rendimiento, ideal para aplicaciones de sistemas empresariales.
+
+| Categoría | Tecnología | Versión | Propósito / Habilidad Demostrada |
+| :--- | :--- | :--- | :--- |
+| **Framework** | **.NET** | 8.0 | [cite_start]Core del desarrollo *backend*[cite: 1]. |
+| **Lenguaje** | **C#** | - | Lenguaje principal de programación orientada a objetos (POO). |
+| **Base de Datos** | **SQL Server** | - | [cite_start]Motor de base de datos relacional para persistencia de datos[cite: 1]. |
+| **ORM** | **Entity Framework Core (EF Core)** | 9.0.6 | [cite_start]Mapeo Objeto-Relacional para la interacción con la base de datos[cite: 1]. |
+| **Documentación** | **Swashbuckle / Swagger** | 6.6.2 | [cite_start]Generación automática de documentación de la API para facilitar pruebas e integración[cite: 1]. |
+
+---
+
+## ✨ Características y Funcionalidades Clave
+
+Las principales funcionalidades desarrolladas en esta API incluyen:
+
+* **Gestión de Cuentas (CRUD):** Creación, lectura, actualización y eliminación de cuentas bancarias.
+* **Autenticación y Autorización:** Implementación de un sistema de *login* seguro para usuarios de la API.
+* **Transacciones:** Endpoints para simular depósitos, retiros y transferencias entre cuentas.
+* **Consultas:** Rutas para consultar saldos y el historial de movimientos de una cuenta.
+
+---
+
+## 🛡️ Buenas Prácticas y Calidad de Código
+
+Para asegurar la calidad, la seguridad y la modernidad del código, se implementaron las siguientes prácticas:
+
+1.  [cite_start]**Seguridad en Desarrollo:** Configuración de **HTTPS** como protocolo de *debugging* activo[cite: 3].
+2.  [cite_start]**Manejo de Secretos:** Uso de **User Secrets** para almacenar información sensible (como cadenas de conexión) fuera del repositorio de código público[cite: 1].
+3.  [cite_start]**Código Limpio:** Configuración del proyecto con `<Nullable>enable</Nullable>` para evitar referencias nulas inesperadas y fomentar un código más seguro en C#[cite: 1].
+4.  [cite_start]**API Documentada:** Uso de Swagger para proveer una interfaz gráfica que permite a cualquier usuario probar los *endpoints* de la API sin necesidad de herramientas externas[cite: 1].
+
+---
+
+## ⚙️ Instalación y Configuración
+
+Para clonar y ejecutar este proyecto localmente, sigue los siguientes pasos:
+
+1.  **Clonar el Repositorio:**
+    ```bash
+    git clone [https://github.com/bettodanielmercadosuarez-beep/BBVA-WebAPI.git](https://github.com/bettodanielmercadosuarez-beep/BBVA-WebAPI.git)
+    cd BBVA-WebAPI
+    ```
+2.  **Restaurar Paquetes:** Abre la solución en Visual Studio o utiliza el comando de .NET:
+    ```bash
+    dotnet restore
+    ```
+3.  **Configurar Base de Datos:**
+    * Asegúrate de tener una instancia de **SQL Server** disponible.
+    * Aplica las migraciones de Entity Framework Core para crear la base de datos:
+        ```bash
+        dotnet ef database update
+        ```
+4.  **Ejecutar la API:**
+    ```bash
+    dotnet run
+    ```
+
+La API estará disponible en la URL configurada y la documentación de Swagger será accesible a través de `/swagger`.
