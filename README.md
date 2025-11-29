@@ -1,5 +1,7 @@
 # 🏦 BBVA-WebAPI: API REST para Gestión Bancaria
 
+![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet)
+
 ## 🚀 Descripción del Proyecto
 
 Este proyecto es una **API REST moderna y escalable** diseñada para simular las operaciones básicas de un sistema bancario. Permite la gestión de cuentas, transacciones y autenticación de usuarios.
